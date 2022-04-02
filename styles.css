@@ -1,8 +1,10 @@
 
+* {
+ box-sizing: border-box;  
+}
+
 .container {
-   display:grid; 
-   grid-template-columns: repeat(16,60px);
-   width:900px;
+   display:flex; 
 }
 
 button {
